@@ -144,7 +144,7 @@ html , body{
     padding: 0 0 4px 0
 }
 .left_col {
-    background: #2A3F54
+    background: #0F83CA
 }
 .nav-sm .container.body .col-md-3.left_col {
     min-height: 100%;
@@ -197,7 +197,7 @@ html , body{
 }
 .nav-sm .nav.child_menu li.active,
 .nav-sm .nav.side-menu li.active-sm {
-    border-right: 5px solid #1ABB9C
+    border-right: 5px solid #F2896D
 }
 .nav-sm ul.nav.child_menu ul,
 .nav-sm .nav.side-menu li.active-sm ul ul {
@@ -356,7 +356,7 @@ body .container.body .right_col {
 .nav_title {
     width: 230px;
     float: left;
-    background: #2A3F54;
+    background: #0F83CA;
     border-radius: 0;
     height: 57px
 }
@@ -406,7 +406,7 @@ body .container.body .right_col {
     color: #9B59B6
 }
 .green {
-    color: #1ABB9C
+    color: #F2896D
 }
 .aero {
     color: #9CC2CB
