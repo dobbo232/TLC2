@@ -470,6 +470,11 @@ body .container.body .right_col {
     border: 1px solid #50C1CF !important;
     color: #fff
 }
+.bg-dark {
+  background: #34495E !important;
+  border: 1px solid #F39C12 !important;
+  color: #fff;
+}
 .container {
     width: 100%;
     padding: 0
@@ -4130,6 +4135,81 @@ ul.notifications {
     direction: rtl;
 }
 */
+
+.gaugeChart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.gaugeChartLabel {
+    display: inline-block;
+    position: absolute;
+    float: left;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #656565;
+    font-weight: bold;
+    z-index: 1;
+    text-shadow: #777 0px 0px 1px;
+    /* text-shadow: #CCC 1px 1px 0px, #CCC -1px -1px 0px, #CCC 1px -1px 0px, #CCC -1px 1px 0px; */
+    /* -webkit-text-stroke: 1px #777; */
+    /* -webkit-font-smoothing: none; */
+}
+
+.gaugeChartTitle {
+    display: inline-block;
+    position: absolute;
+    float: left;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #999999;
+    font-weight: bold;
+}
+
+.gaugeChartUnits {
+    display: inline-block;
+    position: absolute;
+    float: left;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    margin-left: 5%;
+    color: #fff;
+    font-weight: normal;
+}
+
+.gaugeChartMin {
+    display: inline-block;
+    position: absolute;
+    float: left;
+    left: 0;
+    bottom: 8%;
+    width: 92%;
+    margin-left: 8%;
+    text-align: left;
+    color: #fff;
+    font-weight: normal;
+}
+
+.gaugeChartMax {
+    display: inline-block;
+    position: absolute;
+    float: left;
+    left: 0;
+    bottom: 8%;
+    width: 95%;
+    margin-right: 5%;
+    text-align: right;
+    color: #fff;
+    font-weight: normal;
+}
 
 .main_menu .label {
     line-height: 11px;
