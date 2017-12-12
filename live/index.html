@@ -193,33 +193,26 @@
         <div class="right_col" role="main">
           <div class="">
             <div class="row top_tiles" style="margin: 10px 0;">
-              <div class="col-md-3 col-sm-3 col-xs-6 tile">
-                <span>Total Sessions</span>
-                <h2>231,809</h2>
+              <div class="col-md-4 col-sm-4 col-xs-6 tile">
+                <span>Year Turnover</span>
+                <h2>£160,000</h2>
                 <span class="sparkline_one" style="height: 160px;">
                       <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
                   </span>
               </div>
-              <div class="col-md-3 col-sm-3 col-xs-6 tile">
-                <span>Total Revenue</span>
-                <h2>$ 231,809</h2>
+              <div class="col-md-4 col-sm-4 col-xs-6 tile">
+                <span>Year Profit</span>
+                <h2>£30,000</h2>
                 <span class="sparkline_one" style="height: 160px;">
                       <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
                   </span>
               </div>
-              <div class="col-md-3 col-sm-3 col-xs-6 tile">
-                <span>Total Sessions</span>
-                <h2>231,809</h2>
-                <span class="sparkline_two" style="height: 160px;">
+              <div class="col-md-4 col-sm-4 col-xs-6 tile">
+                <span>Active Customers</span>
+                <h2>80</h2>
+                <span class="sparkline_one" style="height: 160px;">
                       <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
                   </span> 
-              </div>
-              <div class="col-md-3 col-sm-3 col-xs-6 tile">
-                <span>Total Sessions</span>
-                <h2>231,809</h2>
-                <span class="sparkline_one" style="height: 160px;">
-                      <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
-                  </span>
               </div>
             </div>
             <br />
@@ -301,8 +294,49 @@
                 </div>
               </div>
 
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="x_panel fixed_height_320">
+                  <div class="x_title">
+                    <h2>Yearly <small>Target</small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">Settings 1</a>
+                          </li>
+                          <li><a href="#">Settings 2</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <div class="dashboard-widget-content">
+                      <ul class="quick-list">
+                        <li><i class="fa fa-line-chart"></i><a href="#">Edit Target</a></li>
+                        <li><i class="fa fa-bar-chart"></i><a href="#">See details</a> </li>
+                      </ul>
 
-              <!-- start of weather widget -->
+                      <div class="sidebar-widget">
+                        <h4>Turnover</h4>
+                        <canvas width="150" height="80" id="chart_gauge_02" class="" style="width: 160px; height: 100px;"></canvas>
+                        <div class="goal-wrapper">
+                          <span class="gauge-value pull-left">£</span>
+                          <span id="gauge-text2" class="gauge-value pull-left">90,200</span>
+                          <span id="goal-text2" class="goal-value pull-right">£160,000</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                
+                <!-- start of weather widget -->
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
@@ -431,50 +465,6 @@
 
               </div>
               <!-- end of weather widget -->
-
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="x_panel fixed_height_320">
-                  <div class="x_title">
-                    <h2>Yearly <small>Target</small></h2>
-                    <ul class="nav navbar-right panel_toolbox">
-                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="#">Settings 1</a>
-                          </li>
-                          <li><a href="#">Settings 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><a class="close-link"><i class="fa fa-close"></i></a>
-                      </li>
-                    </ul>
-                    <div class="clearfix"></div>
-                  </div>
-                  <div class="x_content">
-                    <div class="dashboard-widget-content">
-                      <ul class="quick-list">
-                        <li><i class="fa fa-bars"></i><a href="#">Subscription</a></li>
-                        <li><i class="fa fa-bar-chart"></i><a href="#">Auto Renewal</a> </li>
-                        <li><i class="fa fa-support"></i><a href="#">Help Desk</a> </li>
-                        <li><i class="fa fa-heart"></i><a href="#">Donations</a> </li>
-                      </ul>
-
-                      <div class="sidebar-widget">
-                        <h4>Turnover</h4>
-                        <canvas width="150" height="80" id="chart_gauge_02" class="" style="width: 160px; height: 100px;"></canvas>
-                        <div class="goal-wrapper">
-                          <span class="gauge-value pull-left">£</span>
-                          <span id="gauge-text2" class="gauge-value pull-left">90,200</span>
-                          <span id="goal-text2" class="goal-value pull-right">£160,000</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
